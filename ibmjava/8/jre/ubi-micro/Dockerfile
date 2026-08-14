@@ -100,7 +100,7 @@ LABEL org.opencontainers.image.authors="Jayashree Gopi" \
     release=8 \
     run="docker run --rm -ti <image_name:tag> /bin/bash" \
     summary="Image for IBM JAVA with UBI 10 Micro as the base image" \
-    description="This image contains the IBM JAVA with Red Hat UBI micro as the base OS.  For more information on this image please see https://github.com/ibmruntimes/ci.docker/blob/master/README.md"
+    description="This image contains the IBM JAVA with Red Hat UBI 10 MICRO as the base OS.  For more information on this image please see https://github.com/ibmruntimes/ci.docker/blob/master/README.md"
 
 ENV JAVA_VERSION 8.0.8.70
 
