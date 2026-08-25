@@ -1,4 +1,4 @@
-# (C) Copyright IBM Corporation 2016, 2019
+# (C) Copyright IBM Corporation 2016, 2026
 #
 # ------------------------------------------------------------------------------
 #               NOTE: THIS DOCKERFILE IS GENERATED VIA "update.sh"
@@ -20,7 +20,6 @@
 #
 
 FROM registry.access.redhat.com/ubi8/ubi-minimal:latest
-
 
 RUN microdnf install openssl wget ca-certificates gzip tar \
     && microdnf update; microdnf clean all
